@@ -1,6 +1,19 @@
 bosh-cloudfoundry-poc
 =====================
 
+To get a general idea of cloudfoundry try to read at least this document before starting:
+
++ https://github.com/StarkAndWayne/bosh-cloudfoundry/blob/master/docs/concept.md
+
+If you want to go a bit further watch the following material:
+
++ http://www.youtube.com/watch?feature=player_embedded&v=dRR9NLiEmR0
++ http://vimeo.com/42248020 
+
+For noobs questions:
++ for bosh(and bosh-bootstap too!) go here:
++ for cloudfoundry(and bosh-cloudfoundry too!) go here:
+
 Steps to get FUCKING cloud foundry running on aws with bosh.
 
 
