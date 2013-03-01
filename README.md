@@ -9,15 +9,17 @@ before starting clean security groups , private keys and instances that bosh cou
 use bosh gem directly from github, the current release breaks!
 so that means:
 
-git clone git://github.com/StarkAndWayne/bosh-bootstrap.git
+
 ```
+  git clone git://github.com/StarkAndWayne/bosh-bootstrap.git
   cd bosh-boostrap
   gem build bosh-bootstrap.gemspec 
   gem install pkg/bosh-bootstrap-0.6.0.gem 
 ```
 on your local:
+```
 bosh-bootstrap deploy
-
+```
 DURING THE INSTALATION LEAVE THE DEFAULT AWS REGION ANDDONT LEAVE THE PASSWORD IN BLANK!
 
 if you get the following error durring the instalation:
